@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang = "en-gb">
+    <style>
+        body {
+            background-color: #9AD7E4;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            color: #162B31;
+        }
+    </style>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+        <title>QUIZ QUIZ QUIZ QUIZ!!</title>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <main>
+            <section>
+                <form name="quiz">
+                    <fieldset>
+                        <legend>What is your favourite colour?</legend>
+                        <input type="radio" name="colour" value="pink" id="pink">
+                        <label for="pink">Pink</label>
+                        <input type="radio" name="colour" value="yellow" id="yellow">
+                        <label for="yellow">Yellow</label>
+                        <input type="radio" name="colour" value="green" id="green">
+                        <label for="green">Green</label>
+                        <input type="radio" name="colour" value="black" id="black">
+                        <label for="black">Black</label>
+                        <!--id and for have to match!-->
+                    </fieldset>
+                    <fieldset>
+                        <legend>What is your favourite animal?</legend>
+                        <input type="radio" name="animal" value="red-panda" id="red-panda">
+                        <label for="red-panda">Red Panda</label>
+                        <input type="radio" name="animal" value="giraffe" id="giraffe">
+                        <label for="giraffe">Giraffe</label>
+                        <input type="radio" name="animal" value="jaguar" id="jaguar">
+                        <label for="jaguar">Jaguar</label>
+                        <input type="radio" name="animal" value="gorilla" id="gorilla">
+                        <label for="gorilla">Gorilla</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>What is your favourite music genre?</legend>
+                        <input type="radio" name="music" value="country" id="country">
+                        <label for="country">Country</label>
+                        <input type="radio" name="music" value="pop" id="pop">
+                        <label for="pop">Pop</label>
+                        <input type="radio" name="music" value="rock" id="rock">
+                        <label for="rock">Rock</label>
+                        <input type="radio" name="music" value="acoustic" id="acoustic">
+                        <label for="acoustic">Acoustic</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>What is your favourite thing to do in your spare time?</legend>
+                        <input type="radio" name="hobby" value="cycle" id="cycle">
+                        <label for="cycle">Cycle</label>
+                        <input type="radio" name="hobby" value="sleep" id="sleep">
+                        <label for="sleep">Sleep</label>
+                        <input type="radio" name="hobby" value="playGames" id="playGames">
+                        <label for="playGames">Play games</label>
+                        <input type="radio" name="hobby" value="draw" id="draw">
+                        <label for="draw">Draw</label>
+                    </fieldset>
+                    <br>
+                    <button type="button" onclick="checkAnswers()">Submit</button>
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
